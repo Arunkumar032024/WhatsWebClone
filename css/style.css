@@ -43,14 +43,82 @@ header img{
 /* main section design */
 main{
     width: 82%;
-    padding: 3rem;
     color: rgb(59, 74, 84);
     background-color: #fff;
     border-radius: 5px;
-
     position: absolute;
     top: 110px;
     left: 9%;
     box-shadow: 1px 2px 3px 4px rgba(0, 0, 0, 0.1);
 }
+
+
+/* qrcode-section design */
+.qrcode-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 2rem;
+}
+.qrcode-section h2{
+    font-weight: 200;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+.qrcode-section ol{
+    padding-left: 20px;
+    font-size: 1.413rem;
+}
+.qrcode-section ol li{
+    margin-bottom: 1.5rem;
+}
+.qrcode-section ol li i{
+    margin-left: 10px;
+    background: #ddd;
+    padding: 3px;
+}
+.qrcode-section ol li span{
+    color: #000;
+    font-weight: 500;
+}
+.qrcode-section #qr-code{
+    width: 300px;
+}
+/* end qrcode-section design */
+
+hr{
+    background-color: #ddd;
+    height: 1px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 168, 132);
+    display: block;
+    margin: 2rem;
+    font-size: 1.25rem;
+}
+
+/* video section design  */
+.video-section {
+    background: rgba(0, 0, 0, 0.03);
+    padding-top: 1rem;
+    text-align: center;
+}
+.video-section h2{
+    font-weight: 200;
+    font-size: 2rem;
+}
+.video-section a{
+    margin: 0;
+    margin-bottom: 1rem;
+}
+.video-section a:hover{
+    text-decoration: underline;
+}
+.video-section video{
+    max-width: 600px;
+}
+/* end video section design  */
+
 /* end main section design */
